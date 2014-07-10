@@ -104,6 +104,18 @@ a:hover {
 	display: none;
 }
 
+.smaller {
+	font-size: .8em;
+}
+
+.indent {
+	margin-right: 20px;
+}
+
+.avinu .intro {
+	margin-top: 10px;
+}
+
 /************
 Footer
 *************/
