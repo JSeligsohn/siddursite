@@ -77,8 +77,8 @@ a:hover {
 .special {
 	padding: 1% 3%;
 	font-size: 1.2em;
-	margin-right: 35px;
-	margin-left: 35px;
+	margin-right: 10px;
+	margin-left: 10px;
 	margin-bottom: 10px	;
 }
 
@@ -186,6 +186,11 @@ MEDIA QUERIES
 	.he-text-container {
 		font-size: 14px;
 	}
+
+	.special {
+		margin-right: 35px;
+		margin-left: 35px;
+}
 
 	.teffilot-links h2{
 		text-align: right;
