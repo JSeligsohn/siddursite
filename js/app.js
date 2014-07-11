@@ -14,3 +14,4 @@ $(document).on('click','.navbar-collapse.in',function(e) {
     }
 });
 
+

@@ -4,9 +4,55 @@
   box-sizing: border-box;
  }
 
+ /**********
+ BOOTSTRAP RESETS
+ ***************/
+ .container {
+ 	padding: 0;
+ }
+
+/* .navbar-default {
+ 	background: steelblue;
+ }
+
+ .navbar-brand {
+ 	color: ghostwhite !important;
+ }
+
+ .navbar-collapse {
+ 	background: ghostwhite !important;
+ }
+
+ .navbar-collapse .dropdown > a, .navbar-collapse .navbar-right > li > a {
+ 	color: steelblue !important;
+ }
+
+ .navbar-collapse li {
+ 	text-align: center;
+ }
+
+ .dropdown > a, .navbar-right > li > a {
+ 	color: ghostwhite !important;
+ }
+
+ .navbar-nav > .open > a {
+ 	background: ghostwhite !important;
+ 	color: steelblue !important;
+ }
+
+ .navbar-toggle {
+ 	background: ghostwhite !important;
+ }
+
+ .navbar-toggle:hover {
+ 	background: #ddd !important;
+ }*/
+
+
+
 body {
 	background: #E9E9E9;
-	padding-top: 70px;
+	padding-top: 50px;
 	font-family: 'Alef', sans-serif;
 }
 
@@ -95,7 +141,7 @@ a:hover {
 }
 
 .expand {
-	color: gold;
+	color: lightcoral;
 	margin: 0;
 	cursor: pointer;
 }
@@ -173,6 +219,10 @@ Footer
 
 .email {
 	color: cornsilk;
+}
+
+.inactive {
+	color: #DDD !important;
 }
 
 
