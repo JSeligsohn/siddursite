@@ -173,6 +173,8 @@ a:hover {
 
 .smaller {
 	font-size: .8em;
+	display: inline-block;
+
 }
 
 .indent {
@@ -181,6 +183,36 @@ a:hover {
 
 .avinu .intro {
 	margin-top: 10px;
+}
+
+.inline-link {
+	color: steelblue;
+}
+
+.inline-link:hover {
+	color: steelblue;
+	border-bottom: 1px solid steelblue;
+}
+
+.finished_prayer {
+	font-family: Righteous, cursive;
+	background: dimgray;
+	color: ghostwhite;
+	padding: 1% 3% ;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.5em;
+	border-radius: 3px;
+	margin-top: 30px;
+}
+
+.finished_prayer a {
+	color: cornflowerblue;
+}
+
+.finished_prayer a:hover {
+	color:cornsilk;
+	border-bottom: 1px solid cornsilk;
 }
 
 /************
