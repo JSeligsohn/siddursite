@@ -102,6 +102,10 @@ a:hover {
 	line-height: 1.6em;
 }
 
+.kedushah h1 {
+	font-size: 2.2em;
+}
+
 .source {
 	font-size: .8em;
 	font-style: italic;
@@ -110,6 +114,23 @@ a:hover {
 
 .response {
 	color: darkcyan;
+}
+
+.chazan {
+	color: lightcoral;
+}
+
+.kedushah .expand {
+	color: gold;
+	line-height: 1.4em;
+}
+
+.kedushah .response {
+	color: lightgreen;
+}
+
+.kedushah .chazan {
+	color: pink;
 }
 
 .special-inline, .special {
@@ -225,6 +246,17 @@ Footer
 	color: #DDD !important;
 }
 
+/************
+Animations
+*************/
+
+.rotate {
+	-webkit-transform: rotateZ(45deg);
+}
+
+.expand .glyphicon {
+	-webkit-transition: .3s -webkit-transform ease;
+}
 
 
 
